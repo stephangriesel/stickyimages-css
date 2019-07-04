@@ -1,44 +1,46 @@
-/* https://css-tricks.com/creating-sliding-effects-using-sticky-positioning/ */
-
-body {
+    /* https://css-tricks.com/creating-sliding-effects-using-sticky-positioning/ */
     
-}
-
-.category, .title, .footer, .sticky {
-    position:sticky;
-}
-
-.category {
-    top:0;
-
-}
-
-.title {
-    top:0;
-}
-
-.sticky {
-    top:0;
-}
-
-.img {
-    top:0;
-}
-
-.footer {
-    bottom:100px;
-    margin:50px auto auto auto;
-    z-index:-1;
-}
-
-section {
-    height:100vh;
-    background-image: linear-gradient(
-        to bottom,
-        transparent 50px,
-        #F5A623 50px,
-        #f5A623 calc(100% - 50px),
-        transparent 0
-    );
-    margin: auto auto 50px auto;
-}
+    body {
+        margin: 0;
+    }
+    
+    .sticky {
+        position: sticky;
+        top: 0;
+        z-index: -1;
+        /* height: 150vh; */
+    }
+    
+    section {
+        height: 100vh;
+        background-image: linear-gradient( to bottom, transparent 50px, #F5A623 50px, #f5A623 calc(), transparent 0);
+        /* margin: auto auto 50px auto; */
+    }
+    
+    .align-right {
+        width: 100%;
+        text-align: right;
+    }
+    
+    .align-left {
+        width: 100%;
+        text-align: left;
+    }
+    
+    .half-half {
+        float: left;
+        width: 100%;
+    }
+    
+    .full {
+        float: left;
+        width: 100%;
+        background: url('https://picsum.photos/901');
+        background-size: cover;
+    }
+    
+    .left,
+    .right {
+        float: left;
+        width: 50%;
+    }
