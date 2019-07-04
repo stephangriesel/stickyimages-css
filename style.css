@@ -9,13 +9,11 @@ body {
   position: sticky;
   top: 0;
   z-index: -1;
-  /* height: 150vh; */
 }
 
 section {
   height: 100vh;
   background-image: linear-gradient(to bottom, transparent 50px, #F5A623 50px, #f5A623 calc(), transparent 0);
-  /* margin: auto auto 50px auto; */
 }
 
 .align-right {
@@ -42,8 +40,8 @@ section {
   z-index: 1;
 }
 
-.position-absolute {
-  z-index: -1;
+.last-item {
+  margin: 0 auto;
 }
 
 .left,
