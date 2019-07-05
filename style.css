@@ -32,7 +32,7 @@ section {
 }
 
 .full {
-  float: left;
+  position: relative;
   width: 100%;
   height: 100vh;
   background: url("6.jpg");
@@ -40,13 +40,28 @@ section {
   z-index: 1;
 }
 
+.four {
+  height: 100vh;
+  z-index: 1;
+}
+
 .last-item {
   margin: 0 auto;
 }
 
-.left,
-.right {
+.float-left,
+.float-right {
   float: left;
   width: 50%;
+}
+
+.vh-100 {
+  height: 100vh;
+  z-index: -1;
+}
+
+.behind {
+  position: relative;
+  z-index: -1;
 }
 /*# sourceMappingURL=style.css.map */
