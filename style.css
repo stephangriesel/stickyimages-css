@@ -36,6 +36,11 @@ section {
   height: 100vh;
 }
 
+.float-half2 {
+  float: left;
+  width: 50%;
+}
+
 .half-half {
   float: left;
   width: 100%;
