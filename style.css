@@ -31,21 +31,21 @@ section {
   width: 100%;
 }
 
-.float-half {
-  float: left;
-  width: 50%;
-  height: 100vh;
-}
-
-.float-half {
-  float: left;
-  width: 50%;
-  height: 100vh;
-}
-
-.half-half {
-  float: left;
+.float-container-vh50 {
+  height: 50vh;
   width: 100%;
+}
+
+.float-half {
+  float: left;
+  width: 50%;
+  height: 100vh;
+}
+
+.float-half {
+  float: left;
+  width: 50%;
+  height: 100vh;
 }
 
 .full {
@@ -57,13 +57,9 @@ section {
   z-index: 1;
 }
 
-.four {
-  height: 100vh;
-  z-index: 1;
-}
-
-.last-item {
-  margin: 0 auto;
+.full-text {
+  display: block;
+  width: 100%;
 }
 
 .float-left,
